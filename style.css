@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    box-sizing: border-box;
+}
+.mainbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftbox{
+    flex-basis: 15%;
+    background-color:white;
+    height: 650px;
+}
+.middle
+{
+    flex-basis: 60%;
+    height: 650px;
+    background-color: #f5f6fb;
+}
+.top
+{
+    background-color:#f8e5e9;
+    height: 100px;
+    border-radius: 10px;
+    margin: 60px 40px 0;
+    
+}
+.middle2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1
+{
+    flex-basis: 40%;
+    height: 300px;
+    background-color:#fff;
+    border-radius: 10px;
+    margin:20px 10px 20px 40px;
+}
+.box2
+{
+    flex-basis: 60%;
+    height: 300px;
+    background-color:#fff;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: 15px;
+}
+.rightbox
+{
+    flex-basis: 25%;
+    background-color: white;
+    height: 650px;
+}
+.middle3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:40px 40px 20px 40px;
+}
+.smallbox3
+{
+    flex-basis: 32%;
+    background-color: #4d4bac;
+    height: 60px;
+    border-radius: 10px;
+}
+.smallbox4
+{
+    flex-basis: 32%;
+    background-color:#9798d8;
+    height: 60px; 
+    border-radius: 10px; 
+}
+.smallbox5
+{
+    flex-basis: 32%; 
+    background-color:#ff808b;
+    height: 60px;
+    border-radius: 10px;
+
+}
+.leftbox h1
+{
+    color: #202020);
+    text-align: center;
+
+}
+.leftbox ul 
+{
+    padding-top:15%;
+}
+ .leftbox ul li 
+ {
+     padding: 20%;
+     text-decoration: solid;
+     font-weight:bold;
+     color: #c4cad4;
+     text-align: center;
+ }
+ .leftinnerbox
+ {
+     background-color: #f5f6fb;
+     border-radius: 15px;
+     color:#b5b8c7;
+     font-size: 20px;
+     padding: 10%;
+     margin: 20px;
+     text-align: center;
+ }
+.leftinnerbox span
+{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.leftinnerbox button
+{
+    background-color: #5981fb;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+}
+.middle h2
+{
+    color: #ff808b;
+    padding: 20px;
+    margin: auto;
+}
+.innerbox1
+{
+    height: 20px;
+    width: 20px;
+    margin: 5%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #3e56ce;
+    opacity: 50%;
+}
+.innerbox2
+{
+    height: 20px;
+    width: 20px;
+    margin: 5%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #798be7;
+    opacity: 50%;
+}
+.innerbox3
+{
+    height: 20px;
+    width: 20px;
+    margin: 5%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #e029b9;
+    opacity: 50%;
+}
+.middle3
+{
+    padding: 20px;
+    margin top: 50%;
+}
+.rightbox h3
+{
+    margin-top:30px;
+    margin-left: 40px;
+}
+.profile
+{
+    text-align: center;
+    padding-top: 130px;
+}
+.profile span
+{
+    margin:0;
+    font-size: 15px;
+}
+span
+{
+    color: #cdced1;
+    font-size: 12px;
+    margin-left: 40px;
+    
+}
+.subjects ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#65666b;
+    margin-left:60px ;
+    margin-top: 20px;   
+}
+.reminders
+{
+    margin-top: 50px;
+}
+.reminders h4
+{margin-left: 40px;
+}
+.reminders ul
+{
+    list-style: none;
+    color: #65666b;
+    margin-left:60px ;
+    margin-top: 20px;    
+}
